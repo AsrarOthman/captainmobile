@@ -42,10 +42,7 @@ function App() {
             <button
               className="card-button-main"
               onClick={() =>
-                window.open(
-                  "https://api.whatsapp.com/send?phone=60182849171&text=Hi%2C%20Saya%20nak%20*Trade-In*%20Gadget%20saya%20(iPhone%2FAndroid%2FiPad%2FLaptop)%20.%20Gadget%20saya%20ialah%20...%0A",
-                  "_blank"
-                )
+                window.open("https://naktradeinphone.wassap.my/", "_blank")
               }
             >
               <div>
@@ -66,10 +63,7 @@ function App() {
             <button
               className="card-button-main "
               onClick={() =>
-                window.open(
-                  "https://api.whatsapp.com/send?phone=601125672454&text=Saya%20berminat%20nak%20beli%20Gadget%20.Nama%20Model%20Phone%20atau%20Gadget%20%3F",
-                  "_blank"
-                )
+                window.open("https://beliphone.wassap.my/", "_blank")
               }
             >
               <div>
@@ -90,10 +84,7 @@ function App() {
             <button
               className="card-button-main"
               onClick={() =>
-                window.open(
-                  "https://api.whatsapp.com/send?phone=601127853596&text=Hi%20%2C%20Saya%20Nak%20Jual%20Sahaja%20Gadget%20saya%20.%20(%20iPhone%2FAndroid%2FiPad%2FLaptop).%20Gadget%20saya%20ialah%20....",
-                  "_blank"
-                )
+                window.open("https://jualanurgent.wassap.my/", "_blank")
               }
             >
               <div>
@@ -112,10 +103,7 @@ function App() {
             <button
               className="card-button-main"
               onClick={() =>
-                window.open(
-                  "https://api.whatsapp.com/send?phone=60182849171&text=Hi%20Captain%20Mobile%20Repair%20%2C%20Saya%20nak%20repair%20(Android%2FiPhone)%20...",
-                  "_blank"
-                )
+                window.open("https://captainrepair.wassap.my/", "_blank")
               }
             >
               <div>
