@@ -295,6 +295,18 @@ function App() {
                 />
               </ErrorBoundary>
             </div>
+            <div
+              style={{
+                color: "white",
+                fontSize: "10px",
+                marginBottom: "20px",
+                display: "flex",
+                justifyContent: "center",
+                marginTop: "30px",
+              }}
+            >
+              Copyright © 2025 - Captain Mobile. Semua hak cipta dilindungi.
+            </div>
           </div>
         </div>
       </div>
