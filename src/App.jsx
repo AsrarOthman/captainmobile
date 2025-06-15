@@ -268,7 +268,30 @@ function App() {
                   marginBottom: "20px",
                 }}
               >
-                Lokasi Kami
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    marginTop: "50px",
+                    marginBottom: "-20px",
+                  }}
+                >
+                  <button
+                    className="card-button-main"
+                    style={{
+                      width: "200px",
+                    }}
+                    onClick={() =>
+                      window.open(
+                        "https://www.google.com/maps?ll=3.826388,103.303286&z=16&t=m&hl=en&gl=MY&mapclient=embed&cid=11539890990524045290",
+                        "_blank"
+                      )
+                    }
+                  >
+                    <div></div>
+                    <div className="fon-center">Lokasi Kami </div>
+                  </button>
+                </div>
               </div>
 
               <ErrorBoundary>
