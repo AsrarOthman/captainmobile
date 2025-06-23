@@ -1,0 +1,190 @@
+* {
+  color: #3f3f3f;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* background-color: #3f3f3f; */
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: center; /* tengah secara horizontal */
+  align-items: center; /* tengah secara vertical */
+  /* border: red 1px solid; */
+}
+
+.main {
+  width: 100%;
+  max-width: 500px;
+  height: 100vh;
+  /* border: solid 1px blueviolet; */
+}
+.main2 {
+  position: sticky; /* Melekat apabila tatal */
+  top: -1px;
+  width: 100%;
+  height: 300px;
+  /* border: red 1px solid; */
+  top: 0;
+  left: 0;
+  z-index: -1; /* duduk di belakang content */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* .app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px red;
+  padding: 10px;
+} */
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid green; */
+  margin-top: -10px;
+}
+
+.hero {
+  /* border: red solid 1px; */
+  width: 100%;
+  height: 50px;
+  margin-top: -200px;
+  display: flex;
+  justify-content: center;
+}
+.herof {
+  font-size: 52px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000,
+    1px 1px 0 #000000; /* Stroke putih */
+}
+
+.herof2 {
+  font-size: 15px;
+  color: #000000;
+  text-align: center;
+  margin-top: -40px;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff; /* Stroke putih */
+}
+
+.card-main {
+  background-color: #2a3235;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+
+.card h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  /* .card {
+    padding: 20px;
+  } */
+
+  .card h1 {
+    font-size: 20px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+}
+
+/* ccccccccccc */
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card-button {
+  font-size: 16px;
+  background-color: #999999; /* Ungu gelap */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.card-button-main {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 16px;
+  background-color: #ffffff; /* Ungu gelap */
+  color: #000000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid yellow; */
+}
+.fon-center {
+  /* border: red solid 1px; */
+  font-weight: bold;
+
+  width: 100%;
+}
+
+.card-button:hover {
+  background-color: #676668; /* Lebih gelap bila hover */
+  transform: translateY(-2px);
+}
+
+.card-button:active {
+  transform: scale(0.98);
+}
+.card-button-main:hover {
+  background-color: #cccccc; /* Lebih gelap bila hover */
+  transform: translateY(-2px);
+}
+
+.card-button-main:active {
+  transform: scale(0.98);
+}
